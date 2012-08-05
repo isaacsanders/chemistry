@@ -7,6 +7,7 @@ gem 'flay'
 group :test do
   gem 'minitest'
   gem 'minitest-colorize'
+  gem 'pry'
 end
 
 # Specify your gem's dependencies in chemistry.gemspec
