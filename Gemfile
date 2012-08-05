@@ -1,9 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'm'
+gem 'rake'
 gem 'flog'
 gem 'flay'
-gem 'minitest-colorize'
+
+group :test do
+  gem 'minitest'
+  gem 'minitest-colorize'
+end
 
 # Specify your gem's dependencies in chemistry.gemspec
 gemspec
