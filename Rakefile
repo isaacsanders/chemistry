@@ -8,3 +8,5 @@ task :test do
     ruby "-I . -I test -r #{lib_file} #{test_file}"
   end
 end
+
+task :default => :test
