@@ -1,0 +1,12 @@
+rvm:
+  - 1.8.6
+  - 1.8.7
+  - 1.9.2
+  - 1.9.3
+  - ruby-head
+  - jruby1.8
+  - jruby1.9
+  - jruby-head
+  - rbx1.8
+  - rbx1.9
+  - rbx-head

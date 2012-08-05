@@ -1,6 +1,7 @@
 # Chemistry
 
-TODO: Write a gem description
+This is a gem that allows you to programmatically interact with chemical
+compounds and equations.
 
 ## Installation
 
@@ -18,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+No Usage Examples.
 
 ## Contributing
 

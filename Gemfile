@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rspec'
+gem 'm'
+gem 'flog'
+gem 'flay'
+
 # Specify your gem's dependencies in chemistry.gemspec
 gemspec
