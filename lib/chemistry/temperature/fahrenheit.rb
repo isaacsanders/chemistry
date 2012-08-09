@@ -1,8 +1,9 @@
-require 'chemistry/temperature'
+require 'chemistry/temperature/unit'
+require 'chemistry/temperature/celsius'
 
 module Chemistry
-  class Temperature
-    class Fahrenheit < Chemistry::Temperature
+  module Temperature
+    class Fahrenheit < Chemistry::Temperature::Unit
       def to_fahrenheit
         self
       end
@@ -12,7 +13,7 @@ module Chemistry
       end
 
       def to_celsius
-        Chemistry::Temperature.celsius convert_to_celsius
+        Chemistry::Temperature::Celsius.new convert_to_celsius
       end
 
       def convert_to_celsius

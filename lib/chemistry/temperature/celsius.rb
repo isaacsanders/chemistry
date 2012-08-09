@@ -1,14 +1,16 @@
-require 'chemistry/temperature'
+require 'chemistry/temperature/unit'
+require 'chemistry/temperature/kelvin'
+require 'chemistry/temperature/fahrenheit'
 
 module Chemistry
-  class Temperature
-    class Celsius < Chemistry::Temperature
+  module Temperature
+    class Celsius < Chemistry::Temperature::Unit
       def to_celsius
         self
       end
 
       def to_kelvin
-        Chemistry::Temperature.kelvin convert_to_kelvin
+        Chemistry::Temperature::Kelvin.new convert_to_kelvin
       end
 
       def convert_to_kelvin
@@ -16,7 +18,7 @@ module Chemistry
       end
 
       def to_fahrenheit
-        Chemistry::Temperature.fahrenheit convert_to_fahrenheit
+        Chemistry::Temperature::Fahrenheit.new convert_to_fahrenheit
       end
 
       def convert_to_fahrenheit

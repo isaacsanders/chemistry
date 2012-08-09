@@ -26,3 +26,13 @@ class ToFahrenheitTest < MiniTest::Unit::TestCase
     assert_equal temp.to_fahrenheit.to_i, 32
   end
 end
+
+class EqualityTest < MiniTest::Unit::TestCase
+  def test_0_is_0
+    assert_equal Chemistry::Temperature::Kelvin.new(0), Chemistry::Temperature::Kelvin.new(0)
+  end
+
+  def test_0_1_is_not_0
+    refute_equal Chemistry::Temperature::Kelvin.new(0.1), Chemistry::Temperature::Kelvin.new(0)
+  end
+end
