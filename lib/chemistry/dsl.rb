@@ -1,6 +1,6 @@
 require 'chemistry/element'
 
-module Chemistry::Element::DSL
+module Chemistry::DSL
   extend self
 
   def element(name, &definition)

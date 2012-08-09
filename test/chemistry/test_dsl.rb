@@ -3,30 +3,30 @@ require 'test_helper'
 class ElementTest < MiniTest::Unit::TestCase
   def test_raises_error_without_name
     assert_raises ArgumentError do
-      ::Chemistry::Element::DSL.element
+      Chemistry::DSL.element
     end
   end
 
   def test_raises_error_without_block
     assert_raises ArgumentError do
-      Chemistry::Element::DSL.element "Hydrogen"
+      Chemistry::DSL.element "Hydrogen"
     end
   end
 
   def test_defines_an_element
     assert_raises NameError do
-      ::Chemistry::Element::Foobar
+      Chemistry::Element::Foobar
     end
 
-    ::Chemistry::Element::DSL.element "Foobar" do
+    Chemistry::DSL.element "Foobar" do
     end
 
-    assert_equal ::Chemistry::Element <=> ::Chemistry::Element::Foobar, 1
+    assert_equal Chemistry::Element <=> Chemistry::Element::Foobar, 1
   end
 end
 
 class DefinitionTest < MiniTest::Unit::TestCase
-  include Chemistry::Element::DSL
+  include Chemistry::DSL
 
   def test_full_definition
     element "Hydrogen" do
