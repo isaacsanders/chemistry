@@ -1,6 +1,6 @@
-require 'chemistry/element/dsl'
+require 'chemistry/dsl'
 
-Chemistry::Element::DSL.element "Hydrogen" do
+Chemistry::DSL.element "Hydrogen" do
   symbol "H"
   atomic_number 1
   atomic_weight 1.00794

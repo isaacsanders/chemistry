@@ -1,6 +1,6 @@
-require 'chemistry/element/dsl'
+require 'chemistry/dsl'
 
-Chemistry::Element::DSL.element "Beryllium" do
+Chemistry::DSL.element "Beryllium" do
   symbol "Be"
   atomic_number 4
   atomic_weight 9.012182
