@@ -1,28 +1,22 @@
+require 'chemistry/temperature'
+
 module Chemistry
   class Element
     class << self
       def symbol symbol
-        if symbol.is_a? String
-          const_set :SYMBOL, symbol
-        else
-          raise TypeError, "can't convert #{symbol.class} into String"
-        end
+        const_set :SYMBOL, symbol
       end
 
       def atomic_number atomic_number
-        if atomic_number.is_a? Integer
-          const_set :ATOMIC_NUMBER, atomic_number
-        else
-          raise TypeError, "can't convert #{atomic_number.class} into Integer"
-        end
+        const_set :ATOMIC_NUMBER, atomic_number
       end
 
       def atomic_weight atomic_weight
-        if atomic_weight.is_a? Numeric
-          const_set :ATOMIC_WEIGHT, atomic_weight
-        else
-          raise TypeError, "can't convert #{atomic_weight.class} into Numeric"
-        end
+        const_set :ATOMIC_WEIGHT, atomic_weight
+      end
+
+      def melting_point melting_point
+        const_set :MELTING_POINT, Chemistry::Temperature.parse(melting_point)
       end
     end
 
@@ -36,6 +30,10 @@ module Chemistry
 
     def atomic_weight
       self.class::ATOMIC_WEIGHT
+    end
+
+    def melting_point
+      self.class::MELTING_POINT
     end
   end
 end

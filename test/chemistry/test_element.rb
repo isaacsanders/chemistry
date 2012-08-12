@@ -10,18 +10,6 @@ class ClassLevelAtomicNumberTest < ElementTestCase
 
     assert_equal element::ATOMIC_NUMBER, 14
   end
-
-  def test_must_be_an_integer
-    assert_raises TypeError do
-      element.atomic_number "a"
-    end
-
-    assert_raises TypeError do
-      element.atomic_number 1.2
-    end
-
-    assert element.atomic_number 12
-  end
 end
 
 class InstanceLevelAtomicNumberTest < ElementTestCase
@@ -45,14 +33,6 @@ class ClassLevelAtomicWeightTest < ElementTestCase
     element.atomic_weight 1.12342314
 
     assert_equal element::ATOMIC_WEIGHT, 1.12342314
-  end
-
-  def test_must_be_a_number
-    assert_raises TypeError do
-      element.atomic_weight "a"
-    end
-
-    assert element.atomic_weight 1.2
   end
 end
 
@@ -78,14 +58,6 @@ class ClassLevelSymbolTest < ElementTestCase
 
     assert_equal element::SYMBOL, "H"
   end
-
-  def test_must_be_a_string_or_symbol
-    assert_raises TypeError do
-      element.symbol 1
-    end
-
-    assert element.symbol 'H'
-  end
 end
 
 class InstanceLevelSymbolTest < ElementTestCase
@@ -97,5 +69,29 @@ class InstanceLevelSymbolTest < ElementTestCase
     element.symbol 'He'
 
     assert_equal element.new.symbol, 'He'
+  end
+end
+
+class ClassLevelMeltingPointTest < ElementTestCase
+  def test_defines_a_constant
+    assert_raises NameError do
+      element::MELTING_POINT
+    end
+
+    element.melting_point "1K"
+
+    assert_equal element::MELTING_POINT, Chemistry::Temperature.parse("1k")
+  end
+end
+
+class InstanceLevelMeltingPointTest < ElementTestCase
+  def test_requires_symbol_to_be_defined_on_the_class_level
+    assert_raises NameError do
+      element.new.melting_point
+    end
+
+    element.melting_point '1K'
+
+    assert_equal element.new.melting_point, Chemistry::Temperature.parse('1K')
   end
 end

@@ -1,7 +1,8 @@
 require 'chemistry/dsl'
 
-Chemistry::DSL.element "Ununseptium" do
+Chemistry::DSL.element "Uus" do
   symbol "Uus"
   atomic_number 117
   atomic_weight 294
+  melting_point 
 end
