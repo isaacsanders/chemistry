@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Yttrium" do
+Chemistry::Element.define "Yttrium" do
   symbol "Y"
   atomic_number 39
   atomic_weight 88.90585

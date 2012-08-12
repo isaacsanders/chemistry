@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Titanium" do
+Chemistry::Element.define "Titanium" do
   symbol "Ti"
   atomic_number 22
   atomic_weight 47.867

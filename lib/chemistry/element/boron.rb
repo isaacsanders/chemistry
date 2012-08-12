@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Boron" do
+Chemistry::Element.define "Boron" do
   symbol "B"
   atomic_number 5
   atomic_weight 10.811

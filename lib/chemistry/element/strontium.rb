@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Strontium" do
+Chemistry::Element.define "Strontium" do
   symbol "Sr"
   atomic_number 38
   atomic_weight 87.62

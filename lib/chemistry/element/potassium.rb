@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Potassium" do
+Chemistry::Element.define "Potassium" do
   symbol "K"
   atomic_number 19
   atomic_weight 39.0983

@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Americium" do
+Chemistry::Element.define "Americium" do
   symbol "Am"
   atomic_number 95
   atomic_weight 243

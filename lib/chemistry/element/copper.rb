@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Copper" do
+Chemistry::Element.define "Copper" do
   symbol "Cu"
   atomic_number 29
   atomic_weight 63.546

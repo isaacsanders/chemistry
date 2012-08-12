@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Rhodium" do
+Chemistry::Element.define "Rhodium" do
   symbol "Rh"
   atomic_number 45
   atomic_weight 102.90550

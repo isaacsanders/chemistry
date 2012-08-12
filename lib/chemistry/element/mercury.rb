@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Mercury" do
+Chemistry::Element.define "Mercury" do
   symbol "Hg"
   atomic_number 80
   atomic_weight 200.59

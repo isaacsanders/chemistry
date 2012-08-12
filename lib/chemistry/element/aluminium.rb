@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Aluminium" do
+Chemistry::Element.define "Aluminium" do
   symbol "Al"
   atomic_number 13
   atomic_weight 26.9815386

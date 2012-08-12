@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Praseodymium" do
+Chemistry::Element.define "Praseodymium" do
   symbol "Pr"
   atomic_number 59
   atomic_weight 140.90765

@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Sodium" do
+Chemistry::Element.define "Sodium" do
   symbol "Na"
   atomic_number 11
   atomic_weight 22.98976928

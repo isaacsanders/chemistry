@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Neodymium" do
+Chemistry::Element.define "Neodymium" do
   symbol "Nd"
   atomic_number 60
   atomic_weight 144.242

@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Uranium" do
+Chemistry::Element.define "Uranium" do
   symbol "U"
   atomic_number 92
   atomic_weight 238.02891

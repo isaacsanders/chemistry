@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Astatine" do
+Chemistry::Element.define "Astatine" do
   symbol "At"
   atomic_number 85
   atomic_weight 210

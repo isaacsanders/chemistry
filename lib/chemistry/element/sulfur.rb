@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Sulfur" do
+Chemistry::Element.define "Sulfur" do
   symbol "S"
   atomic_number 16
   atomic_weight 32.065

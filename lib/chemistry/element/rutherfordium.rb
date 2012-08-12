@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Rutherfordium" do
+Chemistry::Element.define "Rutherfordium" do
   symbol "Rf"
   atomic_number 104
   atomic_weight 261

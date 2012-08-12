@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Cerium" do
+Chemistry::Element.define "Cerium" do
   symbol "Ce"
   atomic_number 58
   atomic_weight 140.116

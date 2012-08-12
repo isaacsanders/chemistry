@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Osmium" do
+Chemistry::Element.define "Osmium" do
   symbol "Os"
   atomic_number 76
   atomic_weight 190.23

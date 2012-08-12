@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Lithium" do
+Chemistry::Element.define "Lithium" do
   symbol "Li"
   atomic_number 3
   atomic_weight 6.941

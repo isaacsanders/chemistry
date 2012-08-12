@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Radon" do
+Chemistry::Element.define "Radon" do
   symbol "Rn"
   atomic_number 86
   atomic_weight 220

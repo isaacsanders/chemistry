@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Platinum" do
+Chemistry::Element.define "Platinum" do
   symbol "Pt"
   atomic_number 78
   atomic_weight 195.084

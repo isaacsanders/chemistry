@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Indium" do
+Chemistry::Element.define "Indium" do
   symbol "In"
   atomic_number 49
   atomic_weight 114.818

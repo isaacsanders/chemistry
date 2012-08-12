@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Promethium" do
+Chemistry::Element.define "Promethium" do
   symbol "Pm"
   atomic_number 61
   atomic_weight 145

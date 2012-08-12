@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Argon" do
+Chemistry::Element.define "Argon" do
   symbol "Ar"
   atomic_number 18
   atomic_weight 39.948

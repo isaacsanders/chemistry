@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Helium" do
+Chemistry::Element.define "Helium" do
   symbol "He"
   atomic_number 2
   atomic_weight 4.002602

@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Tungsten" do
+Chemistry::Element.define "Tungsten" do
   symbol "W"
   atomic_number 74
   atomic_weight 183.84

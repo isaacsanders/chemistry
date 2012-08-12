@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Europium" do
+Chemistry::Element.define "Europium" do
   symbol "Eu"
   atomic_number 63
   atomic_weight 151.964

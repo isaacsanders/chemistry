@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Manganese" do
+Chemistry::Element.define "Manganese" do
   symbol "Mn"
   atomic_number 25
   atomic_weight 54.938045

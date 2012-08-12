@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Einsteinium" do
+Chemistry::Element.define "Einsteinium" do
   symbol "Es"
   atomic_number 99
   atomic_weight 252

@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Berkelium" do
+Chemistry::Element.define "Berkelium" do
   symbol "Bk"
   atomic_number 97
   atomic_weight 247

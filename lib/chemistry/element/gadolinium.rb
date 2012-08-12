@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Gadolinium" do
+Chemistry::Element.define "Gadolinium" do
   symbol "Gd"
   atomic_number 64
   atomic_weight 157.25

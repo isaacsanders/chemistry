@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Germanium" do
+Chemistry::Element.define "Germanium" do
   symbol "Ge"
   atomic_number 32
   atomic_weight 72.64

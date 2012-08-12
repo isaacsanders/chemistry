@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Tellurium" do
+Chemistry::Element.define "Tellurium" do
   symbol "Te"
   atomic_number 52
   atomic_weight 127.60

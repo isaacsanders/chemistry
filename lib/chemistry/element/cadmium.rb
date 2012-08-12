@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Cadmium" do
+Chemistry::Element.define "Cadmium" do
   symbol "Cd"
   atomic_number 48
   atomic_weight 112.411

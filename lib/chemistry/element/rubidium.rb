@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Rubidium" do
+Chemistry::Element.define "Rubidium" do
   symbol "Rb"
   atomic_number 37
   atomic_weight 85.4678

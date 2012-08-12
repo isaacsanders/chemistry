@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Ytterbium" do
+Chemistry::Element.define "Ytterbium" do
   symbol "Yb"
   atomic_number 70
   atomic_weight 173.04

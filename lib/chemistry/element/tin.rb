@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Tin" do
+Chemistry::Element.define "Tin" do
   symbol "Sn"
   atomic_number 50
   atomic_weight 118.710

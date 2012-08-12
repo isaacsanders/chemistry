@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Neptunium" do
+Chemistry::Element.define "Neptunium" do
   symbol "Np"
   atomic_number 93
   atomic_weight 237

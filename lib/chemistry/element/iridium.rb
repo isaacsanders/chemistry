@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Iridium" do
+Chemistry::Element.define "Iridium" do
   symbol "Ir"
   atomic_number 77
   atomic_weight 192.217

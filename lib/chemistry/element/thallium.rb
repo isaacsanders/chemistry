@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Thallium" do
+Chemistry::Element.define "Thallium" do
   symbol "Tl"
   atomic_number 81
   atomic_weight 204.3833

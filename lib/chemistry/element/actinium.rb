@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Actinium" do
+Chemistry::Element.define "Actinium" do
   symbol "Ac"
   atomic_number 89
   atomic_weight 227

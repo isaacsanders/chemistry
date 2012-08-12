@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Californium" do
+Chemistry::Element.define "Californium" do
   symbol "Cf"
   atomic_number 98
   atomic_weight 251

@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Calcium" do
+Chemistry::Element.define "Calcium" do
   symbol "Ca"
   atomic_number 20
   atomic_weight 40.078

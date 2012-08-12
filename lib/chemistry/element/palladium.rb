@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Palladium" do
+Chemistry::Element.define "Palladium" do
   symbol "Pd"
   atomic_number 46
   atomic_weight 106.42

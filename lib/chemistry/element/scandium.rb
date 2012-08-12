@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Scandium" do
+Chemistry::Element.define "Scandium" do
   symbol "Sc"
   atomic_number 21
   atomic_weight 44.955912

@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Thorium" do
+Chemistry::Element.define "Thorium" do
   symbol "Th"
   atomic_number 90
   atomic_weight 232.03806

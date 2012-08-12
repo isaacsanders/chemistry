@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Magnesium" do
+Chemistry::Element.define "Magnesium" do
   symbol "Mg"
   atomic_number 12
   atomic_weight 24.3050

@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Dysprosium" do
+Chemistry::Element.define "Dysprosium" do
   symbol "Dy"
   atomic_number 66
   atomic_weight 162.500

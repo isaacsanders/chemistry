@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Iodine" do
+Chemistry::Element.define "Iodine" do
   symbol "I"
   atomic_number 53
   atomic_weight 126.90447

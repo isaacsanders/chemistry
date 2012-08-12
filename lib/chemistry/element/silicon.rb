@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Silicon" do
+Chemistry::Element.define "Silicon" do
   symbol "Si"
   atomic_number 14
   atomic_weight 28.0855

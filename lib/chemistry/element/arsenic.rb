@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Arsenic" do
+Chemistry::Element.define "Arsenic" do
   symbol "As"
   atomic_number 33
   atomic_weight 74.92160

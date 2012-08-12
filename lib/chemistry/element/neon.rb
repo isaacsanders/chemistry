@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Neon" do
+Chemistry::Element.define "Neon" do
   symbol "Ne"
   atomic_number 10
   atomic_weight 20.1797

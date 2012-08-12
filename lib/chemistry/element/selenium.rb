@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Selenium" do
+Chemistry::Element.define "Selenium" do
   symbol "Se"
   atomic_number 34
   atomic_weight 78.96

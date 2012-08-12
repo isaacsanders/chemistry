@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Tantalum" do
+Chemistry::Element.define "Tantalum" do
   symbol "Ta"
   atomic_number 73
   atomic_weight 180.94788

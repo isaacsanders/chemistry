@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Gallium" do
+Chemistry::Element.define "Gallium" do
   symbol "Ga"
   atomic_number 31
   atomic_weight 69.723

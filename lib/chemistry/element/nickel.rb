@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Nickel" do
+Chemistry::Element.define "Nickel" do
   symbol "Ni"
   atomic_number 28
   atomic_weight 58.6934

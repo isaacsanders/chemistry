@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Barium" do
+Chemistry::Element.define "Barium" do
   symbol "Ba"
   atomic_number 56
   atomic_weight 137.327

@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Chlorine" do
+Chemistry::Element.define "Chlorine" do
   symbol "Cl"
   atomic_number 17
   atomic_weight 35.453

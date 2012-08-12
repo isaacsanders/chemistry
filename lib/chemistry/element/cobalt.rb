@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Cobalt" do
+Chemistry::Element.define "Cobalt" do
   symbol "Co"
   atomic_number 27
   atomic_weight 58.933195

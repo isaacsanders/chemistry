@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Francium" do
+Chemistry::Element.define "Francium" do
   symbol "Fr"
   atomic_number 87
   atomic_weight 223

@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Rhenium" do
+Chemistry::Element.define "Rhenium" do
   symbol "Re"
   atomic_number 75
   atomic_weight 186.207

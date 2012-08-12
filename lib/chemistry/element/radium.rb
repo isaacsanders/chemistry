@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Radium" do
+Chemistry::Element.define "Radium" do
   symbol "Ra"
   atomic_number 88
   atomic_weight 226

@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Curium" do
+Chemistry::Element.define "Curium" do
   symbol "Cm"
   atomic_number 96
   atomic_weight 247

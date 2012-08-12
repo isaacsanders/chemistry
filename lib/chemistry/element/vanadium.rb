@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Vanadium" do
+Chemistry::Element.define "Vanadium" do
   symbol "V"
   atomic_number 23
   atomic_weight 50.9415

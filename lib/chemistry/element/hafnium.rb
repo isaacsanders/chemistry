@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Hafnium" do
+Chemistry::Element.define "Hafnium" do
   symbol "Hf"
   atomic_number 72
   atomic_weight 178.49

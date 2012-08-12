@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Nitrogen" do
+Chemistry::Element.define "Nitrogen" do
   symbol "N"
   atomic_number 7
   atomic_weight 14.0067

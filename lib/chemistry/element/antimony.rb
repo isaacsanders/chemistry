@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Antimony" do
+Chemistry::Element.define "Antimony" do
   symbol "Sb"
   atomic_number 51
   atomic_weight 121.760

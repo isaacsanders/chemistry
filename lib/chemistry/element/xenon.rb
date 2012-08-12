@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Xenon" do
+Chemistry::Element.define "Xenon" do
   symbol "Xe"
   atomic_number 54
   atomic_weight 131.293

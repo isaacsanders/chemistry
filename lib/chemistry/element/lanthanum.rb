@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Lanthanum" do
+Chemistry::Element.define "Lanthanum" do
   symbol "La"
   atomic_number 57
   atomic_weight 138.90547

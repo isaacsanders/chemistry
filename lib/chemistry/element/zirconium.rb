@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Zirconium" do
+Chemistry::Element.define "Zirconium" do
   symbol "Zr"
   atomic_number 40
   atomic_weight 91.224

@@ -1,39 +1,22 @@
-require 'chemistry/temperature'
+require 'chemistry/element/atom'
 
 module Chemistry
-  class Element
-    class << self
-      def symbol symbol
-        const_set :SYMBOL, symbol
-      end
+  module Element
+    extend self
 
-      def atomic_number atomic_number
-        const_set :ATOMIC_NUMBER, atomic_number
-      end
-
-      def atomic_weight atomic_weight
-        const_set :ATOMIC_WEIGHT, atomic_weight
-      end
-
-      def melting_point melting_point
-        const_set :MELTING_POINT, Chemistry::Temperature.parse(melting_point)
+    def define(name, &definition)
+      if block_given?
+        create_element_class(name).instance_eval &definition
+      else
+        raise ArgumentError, "`element` must be given a block"
       end
     end
 
-    def symbol
-      self.class::SYMBOL
-    end
+    private
 
-    def atomic_number
-      self.class::ATOMIC_NUMBER
-    end
-
-    def atomic_weight
-      self.class::ATOMIC_WEIGHT
-    end
-
-    def melting_point
-      self.class::MELTING_POINT
+    def create_element_class(name)
+      element_class = Class.new(Chemistry::Element::Atom)
+      Chemistry::Element.const_set(name, element_class)
     end
   end
 end

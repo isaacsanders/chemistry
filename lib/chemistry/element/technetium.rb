@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Technetium" do
+Chemistry::Element.define "Technetium" do
   symbol "Tc"
   atomic_number 43
   atomic_weight 98

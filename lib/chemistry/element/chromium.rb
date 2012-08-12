@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Chromium" do
+Chemistry::Element.define "Chromium" do
   symbol "Cr"
   atomic_number 24
   atomic_weight 51.9961

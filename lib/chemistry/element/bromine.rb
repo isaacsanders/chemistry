@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Bromine" do
+Chemistry::Element.define "Bromine" do
   symbol "Br"
   atomic_number 35
   atomic_weight 79.904

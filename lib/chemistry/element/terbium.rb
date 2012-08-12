@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Terbium" do
+Chemistry::Element.define "Terbium" do
   symbol "Tb"
   atomic_number 65
   atomic_weight 158.92535

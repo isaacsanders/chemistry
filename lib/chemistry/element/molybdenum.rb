@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Molybdenum" do
+Chemistry::Element.define "Molybdenum" do
   symbol "Mo"
   atomic_number 42
   atomic_weight 95.94

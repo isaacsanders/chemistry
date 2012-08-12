@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Gold" do
+Chemistry::Element.define "Gold" do
   symbol "Au"
   atomic_number 79
   atomic_weight 196.966569

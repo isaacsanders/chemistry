@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Lead" do
+Chemistry::Element.define "Lead" do
   symbol "Pb"
   atomic_number 82
   atomic_weight 207.2

@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Lutetium" do
+Chemistry::Element.define "Lutetium" do
   symbol "Lu"
   atomic_number 71
   atomic_weight 174.967

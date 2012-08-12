@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Iron" do
+Chemistry::Element.define "Iron" do
   symbol "Fe"
   atomic_number 26
   atomic_weight 55.845

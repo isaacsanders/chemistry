@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Zinc" do
+Chemistry::Element.define "Zinc" do
   symbol "Zn"
   atomic_number 30
   atomic_weight 65.409

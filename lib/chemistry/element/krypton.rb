@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Krypton" do
+Chemistry::Element.define "Krypton" do
   symbol "Kr"
   atomic_number 36
   atomic_weight 83.798

@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Thulium" do
+Chemistry::Element.define "Thulium" do
   symbol "Tm"
   atomic_number 69
   atomic_weight 168.93421

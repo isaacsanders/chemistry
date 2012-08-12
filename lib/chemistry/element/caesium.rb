@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Caesium" do
+Chemistry::Element.define "Caesium" do
   symbol "Cs"
   atomic_number 55
   atomic_weight 132.9054519

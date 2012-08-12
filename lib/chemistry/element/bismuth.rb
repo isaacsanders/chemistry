@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Bismuth" do
+Chemistry::Element.define "Bismuth" do
   symbol "Bi"
   atomic_number 83
   atomic_weight 208.98040

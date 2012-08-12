@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Plutonium" do
+Chemistry::Element.define "Plutonium" do
   symbol "Pu"
   atomic_number 94
   atomic_weight 244

@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Protactinium" do
+Chemistry::Element.define "Protactinium" do
   symbol "Pa"
   atomic_number 91
   atomic_weight 231.03588

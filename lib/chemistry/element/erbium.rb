@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Erbium" do
+Chemistry::Element.define "Erbium" do
   symbol "Er"
   atomic_number 68
   atomic_weight 167.259

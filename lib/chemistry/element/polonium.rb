@@ -1,6 +1,6 @@
-require 'chemistry/dsl'
+require 'chemistry/element'
 
-Chemistry::DSL.element "Polonium" do
+Chemistry::Element.define "Polonium" do
   symbol "Po"
   atomic_number 84
   atomic_weight 210
